@@ -24,7 +24,10 @@ Dashboard containing various advanced college basketball statistics and data vis
 - Effective Field Goal %: (SUM([Field Goals])+(.5*SUM([3-Point Field Goals])))/SUM([Field Goal Attempts])
 - Pure Point Rating: Team metric of same name based on John Hollinger's Pure Point Rating for individual players; shows a team's ability to handle the ball and make good decisions on offense
 - Rebound Rate: (SUM([Total Rebounds]))/(SUM([Total Rebounds])+SUM([Opponent Total Rebounds]))
--Turnover Ratio: (SUM([Turnovers]))/((SUM([Field Goal Attempts])+(SUM([Free Throw Attempts])*.44))+SUM([Assists])+Sum([Turnovers])) 
+-Turnover Ratio: (SUM([Turnovers]))/((SUM([Field Goal Attempts])+(SUM([Free Throw Attempts])*.44))+SUM([Assists])+Sum([Turnovers]))
+
+4) Wins by Conference
+- Packed Bubble chart showing the total number of wins for each conference
 
 #### Plot.ly - Historical Coaches' Poll Data Graph by Conference (ACC Shown) (Work in Progress)
 
